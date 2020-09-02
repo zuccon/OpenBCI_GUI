@@ -27,11 +27,8 @@ W_DigitalRead w_digitalRead;
 W_playback w_playback;
 W_Spectrogram w_spectrogram;
 W_NovaAux w_novaAux;
-<<<<<<< HEAD
 W_PacketLoss w_packetLoss;
-=======
 W_prova w_prova;
->>>>>>> c16f565... following https://docs.openbci.com/docs/06Software/01-OpenBCISoftware/GUIWidgets#custom-widget
 
 //ADD YOUR WIDGET TO WIDGETS OF WIDGETMANAGER
 void setupWidgets(PApplet _this, ArrayList<Widget> w){
