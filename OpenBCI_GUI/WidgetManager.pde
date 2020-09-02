@@ -8,7 +8,7 @@ int navHeight = 22;
     Notes:
     - In this file all you have to do is MAKE YOUR WIDGET GLOBALLY, and then ADD YOUR WIDGET TO WIDGETS OF WIDGETMANAGER in the setupWidgets() function below
     - the order in which they are added will effect the order in which they appear in the GUI and in the WidgetSelector dropdown menu of each widget
-    - use the WidgetTemplate.pde file as a starting point for creating new widgets (also check out W_timeSeries.pde, W_fft.pde, and W_HeadPlot.pde)
+    - use the W_template.pde file as a starting point for creating new widgets (also check out W_timeSeries.pde, W_fft.pde, and W_HeadPlot.pde)
 */
 
 // MAKE YOUR WIDGET GLOBALLY
