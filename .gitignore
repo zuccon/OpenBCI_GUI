@@ -21,3 +21,4 @@ application.*
 *.autosave
 .vscode/*
 temp/*
+*.so

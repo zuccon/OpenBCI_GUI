@@ -27,7 +27,11 @@ W_DigitalRead w_digitalRead;
 W_playback w_playback;
 W_Spectrogram w_spectrogram;
 W_NovaAux w_novaAux;
+<<<<<<< HEAD
 W_PacketLoss w_packetLoss;
+=======
+W_prova w_prova;
+>>>>>>> c16f565... following https://docs.openbci.com/docs/06Software/01-OpenBCISoftware/GUIWidgets#custom-widget
 
 //ADD YOUR WIDGET TO WIDGETS OF WIDGETMANAGER
 void setupWidgets(PApplet _this, ArrayList<Widget> w){
@@ -144,6 +148,10 @@ void setupWidgets(PApplet _this, ArrayList<Widget> w){
     addWidget(w_focus, w);
     // println("  setupWidgets focus widget -- " + millis());
     */
+
+    w_prova = new W_prova(_this);
+    w_prova.setTitle("My New Widget");
+    addWidget(w_prova, w);
 
 }
 
